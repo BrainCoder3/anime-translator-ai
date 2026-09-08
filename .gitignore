@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+secrets/
+credentials/
+
+# User videos
+input/*
+!input/.gitkeep
+
+# Generated runs
+runs/*
+!runs/.gitkeep
+
+# Model files
+models/*
+!models/.gitkeep
+
+# Outputs
+output/*
+!output/.gitkeep
+
+# Character/anime private data
+anime_memory/
+*.npy
+
+# Media generated or supplied by user
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.wav
+*.mp3
+*.flac
+
+# Caches
+.cache/
+hf_cache/
+huggingface/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ===== Legacy development experiments =====
+src/pipeline_v*.py
+src/analyze_prosody_v*.py
+src/annotate_emotions_v*.py
+src/build_episode_v*.py
+src/correct_episode_v*.py
+src/extract_character_refs_v*.py
+src/finish_chatterbox_v*.py
+src/render_chatterbox_full_v*.py
+src/render_emotional_dub_v*.py
+src/render_hybrid_v*.py
+src/test_*.py
+src/verify_episode_v*.py
+
+# Old exploratory scripts
+src/analyze_scene.py
+src/compare_whisper.py
+src/inspect_audio.py
+src/inspect_confidence.py
+src/plot_logmel.py
+src/plot_spectrogram.py
+src/plot_spectrum.py
+src/plot_waveform.py
+src/read_samples.py
+src/transcribe.py
+src/translate.py
