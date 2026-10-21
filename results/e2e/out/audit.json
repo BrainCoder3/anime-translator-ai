@@ -1,0 +1,62 @@
+{
+ "version": "1.0.0",
+ "config": {
+  "source_lang": "ja",
+  "target_lang": "fr",
+  "whisper_model": "small",
+  "ollama_url": "http://127.0.0.1:11434",
+  "ollama_model": "qwen3:4b-instruct-2507-q4_K_M",
+  "ollama_timeout_s": 180,
+  "tts_voice": "fr-FR-DeniseNeural",
+  "speakers": {
+   "match": 0.84,
+   "margin": 0.08,
+   "new_character": 0.72
+  },
+  "fit": {
+   "max_natural_rate": 25,
+   "tolerance_ms": 50,
+   "max_adapt_candidates": 2,
+   "semantic_score_threshold": 90,
+   "words_per_second": 3.4
+  }
+ },
+ "overflow_segments": [],
+ "segments": [
+  {
+   "id": 1,
+   "character_id": "SPEAKER_00",
+   "engine": "edge-tts",
+   "target_ms": 2920,
+   "final_duration_ms": 2580,
+   "overflow_ms": 0,
+   "rate_applied": 0,
+   "adapted": false,
+   "attempts": []
+  },
+  {
+   "id": 2,
+   "character_id": "SPEAKER_00",
+   "engine": "edge-tts",
+   "target_ms": 3520,
+   "final_duration_ms": 2610,
+   "overflow_ms": 0,
+   "rate_applied": 0,
+   "adapted": false,
+   "attempts": []
+  },
+  {
+   "id": 3,
+   "character_id": "SPEAKER_00",
+   "engine": "edge-tts",
+   "target_ms": 2760,
+   "final_duration_ms": 2260,
+   "overflow_ms": 0,
+   "rate_applied": 0,
+   "adapted": false,
+   "attempts": []
+  }
+ ],
+ "strategy": "adapt+speedup",
+ "engine": "edge-tts"
+}

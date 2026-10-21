@@ -1,0 +1,58 @@
+{
+ "experiment": "timing_pilot",
+ "n_segments": 16,
+ "tolerance_ms": 200,
+ "overall": {
+  "n_segments": 16,
+  "tolerance_ms": 200,
+  "n_overrun": 13,
+  "overrun_rate": 0.8125,
+  "fit_rate": 0.0625,
+  "mean_overrun_ms": 460.61538461538464,
+  "max_overrun_ms": 540,
+  "median_ratio": 1.1874086021505377,
+  "p95_ratio": 1.2884460297766749,
+  "mean_abs_error_ms": 447.4375
+ },
+ "by_engine": {
+  "Chatterbox V15.3 reused": {
+   "n_segments": 14,
+   "tolerance_ms": 200,
+   "n_overrun": 13,
+   "overrun_rate": 0.9285714285714286,
+   "fit_rate": 0.0,
+   "mean_overrun_ms": 460.61538461538464,
+   "max_overrun_ms": 540,
+   "median_ratio": 1.206657793089049,
+   "p95_ratio": 1.28869623655914,
+   "mean_abs_error_ms": 443.42857142857144
+  },
+  "CosyVoice 3": {
+   "n_segments": 2,
+   "tolerance_ms": 200,
+   "n_overrun": 0,
+   "overrun_rate": 0.0,
+   "fit_rate": 0.5,
+   "mean_overrun_ms": 0.0,
+   "max_overrun_ms": 0.0,
+   "median_ratio": 0.6594491525423729,
+   "p95_ratio": 0.7714533898305085,
+   "mean_abs_error_ms": 475.5
+  }
+ },
+ "stretch": {
+  "n_with_atempo": 2,
+  "n_stretched": 0,
+  "max_factor": 1.0,
+  "mean_factor": 1.0
+ },
+ "linear_fit_by_engine": {
+  "Chatterbox V15.3 reused": {
+   "n": 14,
+   "slope": 0.8629861013827085,
+   "intercept": 771.5636167999492,
+   "r2": 0.9544036202767796
+  }
+ },
+ "caveat": "one scene, 16 segments; engine confounded with character and with the adaptation loop"
+}
