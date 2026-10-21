@@ -1,0 +1,182 @@
+{
+ "version": "15.5",
+ "architecture": {
+  "CHARACTER_001": "Chatterbox V15.3 reused",
+  "CHARACTER_002": "CosyVoice 3"
+ },
+ "overflow_segments": [
+  1,
+  3,
+  5,
+  6,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "segments": [
+  {
+   "id": 1,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 3000,
+   "final_duration_ms": 3518,
+   "overflow_ms": 518
+  },
+  {
+   "id": 2,
+   "character_id": "CHARACTER_002",
+   "engine": "CosyVoice 3",
+   "target_ms": 3540,
+   "final_duration_ms": 2775,
+   "overflow_ms": 0,
+   "atempo": 1.0,
+   "attempts": [
+    {
+     "attempt": 1,
+     "speed": 1.0,
+     "path": "output/v15_5_hybrid/cosyvoice_tts/002_CHARACTER_002_trim1.wav",
+     "duration_ms": 2775
+    }
+   ],
+   "selected_attempt": {
+    "attempt": 1,
+    "speed": 1.0,
+    "path": "output/v15_5_hybrid/cosyvoice_tts/002_CHARACTER_002_trim1.wav",
+    "duration_ms": 2775
+   }
+  },
+  {
+   "id": 3,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 1560,
+   "final_duration_ms": 2009,
+   "overflow_ms": 449
+  },
+  {
+   "id": 4,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 4380,
+   "final_duration_ms": 4160,
+   "overflow_ms": 0
+  },
+  {
+   "id": 5,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 2240,
+   "final_duration_ms": 2720,
+   "overflow_ms": 480
+  },
+  {
+   "id": 6,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 3200,
+   "final_duration_ms": 3680,
+   "overflow_ms": 480
+  },
+  {
+   "id": 7,
+   "character_id": "CHARACTER_002",
+   "engine": "CosyVoice 3",
+   "target_ms": 400,
+   "final_duration_ms": 214,
+   "overflow_ms": 0,
+   "atempo": 1.0,
+   "attempts": [
+    {
+     "attempt": 1,
+     "speed": 1.0,
+     "path": "output/v15_5_hybrid/cosyvoice_tts/007_CHARACTER_002_trim1.wav",
+     "duration_ms": 214
+    }
+   ],
+   "selected_attempt": {
+    "attempt": 1,
+    "speed": 1.0,
+    "path": "output/v15_5_hybrid/cosyvoice_tts/007_CHARACTER_002_trim1.wav",
+    "duration_ms": 214
+   }
+  },
+  {
+   "id": 8,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 1900,
+   "final_duration_ms": 2344,
+   "overflow_ms": 444
+  },
+  {
+   "id": 9,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 3340,
+   "final_duration_ms": 3560,
+   "overflow_ms": 220
+  },
+  {
+   "id": 10,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 2060,
+   "final_duration_ms": 2495,
+   "overflow_ms": 435
+  },
+  {
+   "id": 11,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 1900,
+   "final_duration_ms": 2440,
+   "overflow_ms": 540
+  },
+  {
+   "id": 12,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 3500,
+   "final_duration_ms": 4029,
+   "overflow_ms": 529
+  },
+  {
+   "id": 13,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 3560,
+   "final_duration_ms": 4018,
+   "overflow_ms": 458
+  },
+  {
+   "id": 14,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 2380,
+   "final_duration_ms": 2899,
+   "overflow_ms": 519
+  },
+  {
+   "id": 15,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 1860,
+   "final_duration_ms": 2400,
+   "overflow_ms": 540
+  },
+  {
+   "id": 16,
+   "character_id": "CHARACTER_001",
+   "engine": "Chatterbox V15.3 reused",
+   "target_ms": 1860,
+   "final_duration_ms": 2236,
+   "overflow_ms": 376
+  }
+ ]
+}

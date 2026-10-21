@@ -1,0 +1,12 @@
+﻿# Libraries of the full prototype (src/) that the tested package does not need.
+# Not tested here (pyannote, torch, Chatterbox and CosyVoice were unavailable).  Versions not pinned.
+pyannote.audio
+torch
+torchaudio
+librosa
+soundfile
+pydub
+srt
+scipy
+transformers
+# chatterbox (Chatterbox TTS) and cosyvoice (CosyVoice 3) are installed separately.

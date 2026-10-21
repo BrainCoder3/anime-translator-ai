@@ -1,0 +1,7 @@
+﻿# Runtime dependencies of the tested pipeline (see requirements-lock.txt for the exact versions used).
+# Python 3.11 was used for all results.  The evaluation toolkit alone needs only numpy + matplotlib.
+faster-whisper
+edge-tts
+matplotlib
+numpy
+requests

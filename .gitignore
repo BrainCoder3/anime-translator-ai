@@ -73,3 +73,28 @@ src/plot_waveform.py
 src/read_samples.py
 src/transcribe.py
 src/translate.py
+
+# Added with the evaluation package
+# media and generated outputs (copyright, size)
+*.m4a
+*.npz
+*.srt
+*.log
+output/
+outputs/
+adaptation_cache*.json
+# keep the LLM answers (reproducibility) and the end-to-end audit, drop the rest
+results/cache/*
+!results/cache/llm_cache.json
+results/e2e/out/*
+!results/e2e/out/audit.json
+# older development scripts and helper, kept locally only
+legacy/
+PUBLISH.ps1
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# editors, os
+.vscode/
+.idea/
