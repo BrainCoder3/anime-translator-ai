@@ -33,6 +33,18 @@ python experiments/make_results_md.py
   speed-up fits 90 to 100 % within 200 ms with under 10 % speed-up, at the cost of changing about half of the text
   (chrF about 0.5). Whether the rewrites keep the meaning was **not measured**.
 
+Five fitting strategies, residual overrun per strategy (20 sentences per box, slot shortened to 90, 75 and 60 % of natural):
+
+![Residual overrun by strategy](results/figures/fit_overrun_boxplots.png)
+
+Whisper WER on noisy synthetic speech (16 clips, 95 % intervals):
+
+![Whisper WER against SNR](results/figures/asr_noise_wer.png)
+
+Duration fit of the original pipeline's last run (16 lines, one scene):
+
+![Dubbed duration against source slot](results/figures/timing_pilot_scatter.png)
+
 ## Limits
 - Small samples, synthetic slots and synthetic speech. No human listening or meaning ratings.
 - Multi-speaker memory (pyannote), background separation and voice cloning are in the prototype in `src/`, not in the
